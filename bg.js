@@ -4,7 +4,7 @@ chrome.runtime.onInstalled.addListener(() => (
     setting: "block"
   }),
   chrome.contentSettings.location.set({
-      primaryPattern: "<all_urls>",
-      setting: "block"
+    primaryPattern: "<all_urls>",
+    setting: "block"
   })
 ));
